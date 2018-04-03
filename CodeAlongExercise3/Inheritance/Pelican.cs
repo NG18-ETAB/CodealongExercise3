@@ -16,5 +16,4 @@ namespace CodeAlongExercise3.Inheritance
         public double BeakVolume { get; set; }
     }
 
-
 }
