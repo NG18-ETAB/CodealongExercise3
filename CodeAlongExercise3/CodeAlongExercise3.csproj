@@ -42,6 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inheritance\Animal.cs" />
+    <Compile Include="Inheritance\Bird.cs" />
+    <Compile Include="Inheritance\Dog.cs" />
+    <Compile Include="Inheritance\Flamingo.cs" />
+    <Compile Include="Inheritance\Hedgehog.cs" />
+    <Compile Include="Inheritance\Horse.cs" />
+    <Compile Include="Inheritance\Pelican.cs" />
+    <Compile Include="Inheritance\Swan.cs" />
+    <Compile Include="Inheritance\Worm.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonHandler.cs" />
     <Compile Include="Program.cs" />
