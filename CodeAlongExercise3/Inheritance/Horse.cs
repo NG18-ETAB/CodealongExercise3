@@ -16,5 +16,10 @@ namespace CodeAlongExercise3
         }
 
         public double Speed { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + $" It runs at {Speed:f2} km/h.";
+        }
     }
 }

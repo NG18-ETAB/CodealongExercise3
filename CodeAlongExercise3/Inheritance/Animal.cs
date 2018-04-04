@@ -19,5 +19,9 @@ namespace CodeAlongExercise3
         public string Name { get; set; }
         public double Weight { get; set; }
 
+        public virtual string Stats()
+        {
+            return $"{Name} is {Age} years old and weigh {Weight:f2} kg.";
+        }
     }
 }

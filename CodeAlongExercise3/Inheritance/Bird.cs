@@ -16,5 +16,10 @@ namespace CodeAlongExercise3
         }
 
         public string Plummage { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + $" It has {Plummage}.";
+        }
     }
 }
