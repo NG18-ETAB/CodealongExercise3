@@ -17,5 +17,10 @@ namespace CodeAlongExercise3
         }
 
         public double BeakVolume { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + "volume of beak" + BeakVolume;
+        }
     }
 }

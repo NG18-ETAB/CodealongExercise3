@@ -16,5 +16,9 @@ namespace CodeAlongExercise3
         }
 
         public bool IsGummy { get; set; }
+        public override string Stats()
+        {
+            return base.Stats() + " Is it Gummy?:"+ IsGummy;
+        }
     }
 }
