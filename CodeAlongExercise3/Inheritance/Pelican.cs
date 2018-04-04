@@ -12,8 +12,9 @@ namespace CodeAlongExercise3.Inheritance
             base(age, name, weight, plummage)
         {
             BeakVolume = beakVolume; 
-        } 
-        public double BeakVolume { get; set; }
+        }    
+        public double BeakVolume { get; set; }  
     }
 
 }
+ 
