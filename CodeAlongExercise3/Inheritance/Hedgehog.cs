@@ -16,5 +16,10 @@ namespace CodeAlongExercise3
         }
 
         public int NumberOfRings { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + "Number of rings" + NumberOfRings;
+        }
     }
 }

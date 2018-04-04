@@ -16,5 +16,9 @@ namespace CodeAlongExercise3
         }
 
         public bool HasMate { get; set; }
+        public override string Stats()
+        {
+            return base.Stats() + "Has Mate? " + HasMate;
+        }
     }
 }

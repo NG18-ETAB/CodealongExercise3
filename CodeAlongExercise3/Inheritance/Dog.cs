@@ -16,5 +16,15 @@ namespace CodeAlongExercise3
         }
 
         public bool IsGoodBoy { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + " Is a good boy ? " + IsGoodBoy;
+        }
+
+        public string Speak()
+        {
+            return "Voff"; 
+        }
     }
 }

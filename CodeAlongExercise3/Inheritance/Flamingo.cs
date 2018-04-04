@@ -16,5 +16,10 @@ namespace CodeAlongExercise3
         }
 
         public bool IsPink { get; set; }
+
+        public override string Stats()
+        {
+            return base.Stats() + " Is pink ? " + "" + IsPink;
+        }
     }
 }
