@@ -19,5 +19,6 @@ namespace CodeAlongExercise3
         public string Name { get; set; }
         public double Weight { get; set; }
 
+
     }
 }
