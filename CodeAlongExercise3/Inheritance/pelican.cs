@@ -10,7 +10,7 @@ namespace CodeAlongExercise3.Inheritance
     {
         public Pelican(int age, string name, double weight, string plummage,double beakVolume) : base(age, name, weight, plummage)
         {
-            BeakVolume = BeakVolume;
+            BeakVolume = beakVolume;
 
         }
         public double BeakVolume { get; set; }
